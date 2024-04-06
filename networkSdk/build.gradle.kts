@@ -1,4 +1,3 @@
-apply(from= "install.gradle")
 plugins {
     id("maven-publish")
     alias(libs.plugins.androidLibrary)
