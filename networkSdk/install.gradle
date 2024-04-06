@@ -1,0 +1,11 @@
+afterEvaluate {
+    publishing {
+        publications {
+            libraryProject(MavenPublication) {
+                groupId = 'com.example.networksdk'
+                artifactId = 'http'
+                version = '1.0.0'
+            }
+        }
+    }
+}
